@@ -8,7 +8,7 @@
 body{
   background-color: white;
 }
-.heading-main {
+h1 {
   background-color: #e3fcfc;
   font-size: 80px;
   color: #FF69B4;
@@ -140,17 +140,58 @@ body{
 
 .ageText{
   display:inline;
+  margin-top: 5px
   font-size: 17px;
 }
 
 .ageTextContainer{
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
 button{
   font-family: courier;
   font-size: 11px;
-  padding: 8px;
+  padding: 11px;
   border-radius: 60px;
+  color: white;
+  background-color: hotpink;
+}
+
+.submit{
+  margin: 50px;
+}
+
+.switchColor{
+  display:flex;
+  justify-content: center;
+}
+
+.light{
+  font-size: 41px;
+  padding: 12px 23px;
+}
+
+.dark{
+  font-size: 30px;
+  padding: 12px 21px;
+}
+
+.girlgif{
+  margin-top: 20px;
+}
+.meganEmily{
+  height: 300px;
+  margin: 50px;
+}
+
+
+.aboutImages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeGirl{
+  margin-bottom: 50px;
 }

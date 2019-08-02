@@ -11,9 +11,12 @@ var aboutUs = $(".aboutUs");
 var resources = $(".resources");
 var clubsAndClasses = $(".clubsAndClasses");
 var navigationBar = $(".navigation-bar");
-
+var heading = $("h1");
+var programLinks = $(".programLinks");
+var headText = $("a");
 
 dark.on("click", darkMode);
+light.on("click", lightMode)
 
 //Function Calls & Event Listeners
 button.on("click", showPrograms);
@@ -130,9 +133,45 @@ container.append(`  <div class = "gwc">
 function darkMode(){
   console.log("dark mode activated");
   welcome.css("background-color", "black");
+  welcome.css("color","#39ff14")
   bar.css("background-color", "black");
   aboutUs.css("background-color", "black");
+  aboutUs.css("color", "#39ff14");
   resources.css("background-color", "black");
+  resources.css("color", "#39ff14");
   clubsAndClasses.css("background-color","black");
+  clubsAndClasses.css("color", "#39ff14");
   navigationBar.css("background-color", "black");
+  navigationBar.css("color", "#d519ff");
+  heading.css("background-color", "black");
+  heading.css("color", "#ff247f");
+  programLinks.css("background-color", "black");
+  headText.css("color", "#d519ff");
+  body.css("background-color", "black");
+  button.css("background-color", "#ff247f")
+  light.css("background-color", "#ff247f")
+  dark.css("background-color", "#ff247f")
+}
+
+function lightMode(){
+  console.log("light mode activated");
+  welcome.css("background-color", "#e3fcfc");
+  welcome.css("color","#FF69B4")
+  bar.css("background-color", "#e3fcfc");
+  aboutUs.css("background-color", "#e3fcfc");
+  aboutUs.css("color", "#FF69B4");
+  resources.css("background-color", "#e3fcfc");
+  resources.css("color", "#FF69B4");
+  clubsAndClasses.css("background-color","#e3fcfc");
+  clubsAndClasses.css("color", "#FF69B4");
+  navigationBar.css("background-color", "#e3fcfc");
+  navigationBar.css("color", "#FF69B4");
+  heading.css("background-color", "#e3fcfc");
+  heading.css("color", "#FF69B4");
+  programLinks.css("background-color", "#e3fcfc");
+  headText.css("color", "#FF69B4");
+  body.css("background-color","white");
+  button.css("background-color","#FF69B4");
+  light.css("background-color","#FF69B4");
+  dark.css("background-color","#FF69B4");
 }
